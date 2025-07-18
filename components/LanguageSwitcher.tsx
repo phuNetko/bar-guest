@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 const locales = [
   { code: "en", label: "English" },
   { code: "vi", label: "Tiếng Việt" },
+  { code: "jp", label: "日本語" },
 ];
 
 export default function LanguageSwitcher() {

@@ -2,7 +2,9 @@ import SlideLayout from "./layout/slide";
 
 const HomePage = () => {
   return (
-    <SlideLayout />
+    <div className="flex flex-col items-center justify-center h-screen">
+      <SlideLayout />
+    </div>
   );
 };
 
